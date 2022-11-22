@@ -150,10 +150,10 @@ figcaption {
   display: flex;
   background-color: #3882F6;
   border-radius: 8px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 80px;
-  padding: 40px 70px;
+  padding: 60px 100px;
   color: #F9FAF8;
 }
 
