@@ -2,4 +2,36 @@ body {
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
+  margin: 0;
+}
+
+body > * {
+  padding: 10px 300px;
+}
+
+.dark-bg {
+  background-color: #1F2937;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+header a:hover {
+  text-decoration: none;  
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #F9FAF8;
+  margin-right: auto;
 }
