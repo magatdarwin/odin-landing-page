@@ -13,14 +13,8 @@ body > * {
   background-color: #1F2937;
 }
 
-header a {
+header a, a:hover {
   text-decoration: none;
-  font-size: 18px;
-  color: #E5E7EB;
-}
-
-header a:hover {
-  text-decoration: none;  
 }
 
 nav {
@@ -34,4 +28,48 @@ nav {
   font-size: 24px;
   color: #F9FAF8;
   margin-right: auto;
+}
+
+header section {
+  display: flex;
+  padding: 80px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 5px;
+}
+
+button {
+  padding: 8px 25px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-default {
+  background-color: #3882F6;
+  color: #F9FAF8; 
+}
+
+.hero-text {
+  width: 500px;
+}
+
+.hero-image {
+  width: 500px;
+  background-color: gray;
+  color: #F9FAF8;
+  padding: 100px 0;
+  text-align: center;
 }
