@@ -109,3 +109,26 @@ figure img {
 figcaption {
   margin: 0 10px;
 }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 100px 500px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.quote-author {
+  margin: 0;
+  margin-left: auto;
+  font-size: 20px;
+  font-weight: bold;
+}
