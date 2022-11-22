@@ -24,7 +24,7 @@ nav {
 }
 
 .header-logo {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 24px;
   color: #F9FAF8;
   margin-right: auto;
@@ -39,7 +39,7 @@ nav {
 
 .hero-main {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 900;
   color: #F9FAF8;
   margin: 0;
 }
@@ -54,7 +54,8 @@ button {
   padding: 8px 25px;
   border: none;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: 900;
+  font-size: 16px;
 }
 
 .btn-default {
@@ -139,7 +140,7 @@ figcaption {
   margin: 0;
   margin-left: auto;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .cta {
