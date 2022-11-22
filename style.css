@@ -114,6 +114,7 @@ figure img {
 
 figcaption {
   margin: 0 10px;
+  font-weight: 100;
 }
 
 .quote {
