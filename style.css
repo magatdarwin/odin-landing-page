@@ -73,3 +73,39 @@ button {
   padding: 100px 0;
   text-align: center;
 }
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.figures {
+  display: flex;
+  justify-content: space-between;
+}
+
+.information h1 {
+  width: 1000px;
+  text-align: center;
+}
+
+figure {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 0;
+}
+
+figure img {
+  border: 1px #3882F6 solid;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+figcaption {
+  margin: 0 10px;
+}
