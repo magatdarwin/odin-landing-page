@@ -30,7 +30,7 @@ nav {
   margin-right: auto;
 }
 
-header section {
+.banner {
   display: flex;
   padding: 80px 0;
   justify-content: space-between;
@@ -67,7 +67,7 @@ button {
 }
 
 .hero-image {
-  width: 500px;
+  width: 600px;
   background-color: gray;
   color: #F9FAF8;
   padding: 100px 0;
